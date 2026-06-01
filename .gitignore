@@ -1,0 +1,13 @@
+@"
+.idea/
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+
+output_files/
+*.csv
+*.fits
+*.vot
+*.h5
+*.zip
+"@ | Set-Content .gitignore
